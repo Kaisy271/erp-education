@@ -150,5 +150,19 @@ namespace Education_Manager
             MessageBox.Show("Chức năng hiện đang nâng cấp");
             btnThuVien.Enabled = false;
         }
+
+        private void btnNhanSu_Click(object sender, EventArgs e)
+        {
+            if (Global.CurrentRoleName == "Quản trị hệ thống")
+            {
+                this.Hide();
+                frmQlyNhanSu frm = new frmQlyNhanSu();
+                frm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Bạn không có quyền truy cập chức năng này.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }

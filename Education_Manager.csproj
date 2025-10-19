@@ -55,6 +55,7 @@
     <Compile Include="DatabaseDaoTaoHelper.cs" />
     <Compile Include="DatabaseNguoiDungHelper.cs" />
     <Compile Include="DatabaseSinhVienHelper.cs" />
+    <Compile Include="DatabaseNhanSuHelper.cs" />
     <Compile Include="DatabaseTaiChinhHelper.cs" />
     <Compile Include="frmBaoCaoHocKy.cs">
       <SubType>Form</SubType>
@@ -68,17 +69,47 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHopDong.Designer.cs">
+      <DependentUpon>frmHopDong.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain_NguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain_NguoiDung.Designer.cs">
       <DependentUpon>frmMain_NguoiDung.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNghiHuu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNghiHuu.Designer.cs">
+      <DependentUpon>frmNghiHuu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNghiViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNghiViec.Designer.cs">
+      <DependentUpon>frmNghiViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhanSu.Designer.cs">
+      <DependentUpon>frmNhanSu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPhanQuyen_ChucNang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPhanQuyen_ChucNang.Designer.cs">
       <DependentUpon>frmPhanQuyen_ChucNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQlyNhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQlyNhanSu.Designer.cs">
+      <DependentUpon>frmQlyNhanSu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSinhVien.cs">
       <SubType>Form</SubType>
@@ -233,11 +264,26 @@
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHopDong.resx">
+      <DependentUpon>frmHopDong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain_NguoiDung.resx">
       <DependentUpon>frmMain_NguoiDung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNghiHuu.resx">
+      <DependentUpon>frmNghiHuu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNghiViec.resx">
+      <DependentUpon>frmNghiViec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhanSu.resx">
+      <DependentUpon>frmNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPhanQuyen_ChucNang.resx">
       <DependentUpon>frmPhanQuyen_ChucNang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQlyNhanSu.resx">
+      <DependentUpon>frmQlyNhanSu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSinhVien.resx">
       <DependentUpon>frmSinhVien.cs</DependentUpon>

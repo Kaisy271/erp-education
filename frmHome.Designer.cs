@@ -113,7 +113,7 @@ namespace Education_Manager
             this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1333, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1333, 29);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -129,26 +129,26 @@ namespace Education_Manager
             this.hệThốngToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("hệThốngToolStripMenuItem.Image")));
             this.hệThốngToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(130, 32);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(108, 25);
             this.hệThốngToolStripMenuItem.Text = "Tài Khoản";
             // 
             // thôngTinNgườiDToolStripMenuItem
             // 
             this.thôngTinNgườiDToolStripMenuItem.Name = "thôngTinNgườiDToolStripMenuItem";
-            this.thôngTinNgườiDToolStripMenuItem.Size = new System.Drawing.Size(290, 32);
+            this.thôngTinNgườiDToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
             this.thôngTinNgườiDToolStripMenuItem.Text = "Thông tin người dùng";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(290, 32);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(290, 32);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -163,25 +163,25 @@ namespace Education_Manager
             this.trợGiúpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("trợGiúpToolStripMenuItem.Image")));
             this.trợGiúpToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
-            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(118, 32);
+            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(100, 25);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
             // 
             // hướngDẫnToolStripMenuItem
             // 
             this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
-            this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn";
             // 
             // thôngTinToolStripMenuItem
             // 
             this.thôngTinToolStripMenuItem.Name = "thôngTinToolStripMenuItem";
-            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.thôngTinToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.thôngTinToolStripMenuItem.Text = "Liên hệ";
             // 
             // báoCáoLộiToolStripMenuItem
             // 
             this.báoCáoLộiToolStripMenuItem.Name = "báoCáoLộiToolStripMenuItem";
-            this.báoCáoLộiToolStripMenuItem.Size = new System.Drawing.Size(197, 32);
+            this.báoCáoLộiToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.báoCáoLộiToolStripMenuItem.Text = "Phản hồi";
             // 
             // statusStrip1
@@ -205,21 +205,21 @@ namespace Education_Manager
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.ForeColor = System.Drawing.Color.White;
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 16);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 17);
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(128)))), ((int)(((byte)(50)))));
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(1313, 16);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(1313, 17);
             this.toolStripStatusLabel1.Spring = true;
             // 
             // lblDateTime
             // 
             this.lblDateTime.ForeColor = System.Drawing.Color.White;
             this.lblDateTime.Name = "lblDateTime";
-            this.lblDateTime.Size = new System.Drawing.Size(0, 16);
+            this.lblDateTime.Size = new System.Drawing.Size(0, 17);
             // 
             // timer1
             // 
@@ -238,10 +238,10 @@ namespace Education_Manager
             this.panelSidebar.Controls.Add(this.btnDaoTao);
             this.panelSidebar.Controls.Add(this.btnHome);
             this.panelSidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSidebar.Location = new System.Drawing.Point(0, 36);
+            this.panelSidebar.Location = new System.Drawing.Point(0, 29);
             this.panelSidebar.Margin = new System.Windows.Forms.Padding(4);
             this.panelSidebar.Name = "panelSidebar";
-            this.panelSidebar.Size = new System.Drawing.Size(238, 680);
+            this.panelSidebar.Size = new System.Drawing.Size(238, 687);
             this.panelSidebar.TabIndex = 4;
             this.panelSidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelSidebar_Paint);
             // 
@@ -348,6 +348,7 @@ namespace Education_Manager
             this.btnNhanSu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhanSu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNhanSu.UseVisualStyleBackColor = true;
+            this.btnNhanSu.Click += new System.EventHandler(this.btnNhanSu_Click);
             // 
             // btnSinhVien
             // 
@@ -420,7 +421,7 @@ namespace Education_Manager
             this.panelHeader.Controls.Add(this.lblAppName);
             this.panelHeader.Controls.Add(this.pictureBoxLogo);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeader.Location = new System.Drawing.Point(238, 36);
+            this.panelHeader.Location = new System.Drawing.Point(238, 29);
             this.panelHeader.Margin = new System.Windows.Forms.Padding(4);
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1095, 123);
@@ -433,7 +434,7 @@ namespace Education_Manager
             this.lblHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(128)))), ((int)(((byte)(50)))));
             this.lblHome.Location = new System.Drawing.Point(162, 85);
             this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(436, 25);
+            this.lblHome.Size = new System.Drawing.Size(349, 20);
             this.lblHome.TabIndex = 3;
             this.lblHome.Text = "UNIVERSITY OF TRANSPORT TECHNOLOGY";
             // 
@@ -444,7 +445,7 @@ namespace Education_Manager
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(128)))), ((int)(((byte)(50)))));
             this.label1.Location = new System.Drawing.Point(162, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 25);
+            this.label1.Size = new System.Drawing.Size(149, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "TRƯỜNG ĐẠI HỌC";
             // 
@@ -456,7 +457,7 @@ namespace Education_Manager
             this.lblAppName.Location = new System.Drawing.Point(160, 39);
             this.lblAppName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppName.Name = "lblAppName";
-            this.lblAppName.Size = new System.Drawing.Size(624, 39);
+            this.lblAppName.Size = new System.Drawing.Size(504, 31);
             this.lblAppName.TabIndex = 1;
             this.lblAppName.Text = "CÔNG NGHỆ GIAO THÔNG VẬN TẢI";
             // 
@@ -477,9 +478,9 @@ namespace Education_Manager
             this.pnHome.Controls.Add(this.tableLayoutPanel1);
             this.pnHome.Controls.Add(this.panel1);
             this.pnHome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnHome.Location = new System.Drawing.Point(238, 159);
+            this.pnHome.Location = new System.Drawing.Point(238, 152);
             this.pnHome.Name = "pnHome";
-            this.pnHome.Size = new System.Drawing.Size(1095, 557);
+            this.pnHome.Size = new System.Drawing.Size(1095, 564);
             this.pnHome.TabIndex = 9;
             // 
             // tableLayoutPanel1
@@ -510,7 +511,7 @@ namespace Education_Manager
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1095, 515);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1095, 522);
             this.tableLayoutPanel1.TabIndex = 2;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -531,9 +532,9 @@ namespace Education_Manager
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label18.Location = new System.Drawing.Point(0, 74);
+            this.label18.Location = new System.Drawing.Point(0, 30);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(140, 18);
+            this.label18.Size = new System.Drawing.Size(120, 15);
             this.label18.TabIndex = 2;
             this.label18.Text = "20/09/2025 10:30:33";
             // 
@@ -545,7 +546,7 @@ namespace Education_Manager
             this.label19.Location = new System.Drawing.Point(0, 94);
             this.label19.MaximumSize = new System.Drawing.Size(1440, 70);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(1411, 70);
+            this.label19.Size = new System.Drawing.Size(1416, 40);
             this.label19.TabIndex = 1;
             this.label19.Text = resources.GetString("label19.Text");
             // 
@@ -557,7 +558,7 @@ namespace Education_Manager
             this.label20.Location = new System.Drawing.Point(0, 0);
             this.label20.MaximumSize = new System.Drawing.Size(1440, 100);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(1433, 74);
+            this.label20.Size = new System.Drawing.Size(1373, 30);
             this.label20.TabIndex = 0;
             this.label20.Text = "Bế mạc khảo sát chính thức phục vụ đánh giá ngoài CTĐT trình độ thạc sĩ tại Trườn" +
     "g Đại học Công nghệ GTVT";
@@ -579,9 +580,9 @@ namespace Education_Manager
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label15.Location = new System.Drawing.Point(0, 74);
+            this.label15.Location = new System.Drawing.Point(0, 30);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(140, 18);
+            this.label15.Size = new System.Drawing.Size(120, 15);
             this.label15.TabIndex = 2;
             this.label15.Text = "23/09/2025 13:04:09";
             // 
@@ -593,7 +594,7 @@ namespace Education_Manager
             this.label16.Location = new System.Drawing.Point(0, 94);
             this.label16.MaximumSize = new System.Drawing.Size(1440, 70);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(1436, 70);
+            this.label16.Size = new System.Drawing.Size(1430, 60);
             this.label16.TabIndex = 1;
             this.label16.Text = resources.GetString("label16.Text");
             // 
@@ -605,7 +606,7 @@ namespace Education_Manager
             this.label17.Location = new System.Drawing.Point(0, 0);
             this.label17.MaximumSize = new System.Drawing.Size(1440, 100);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(1382, 74);
+            this.label17.Size = new System.Drawing.Size(1398, 30);
             this.label17.TabIndex = 0;
             this.label17.Text = "UTT có hai nhà khoa học được xếp hạng trong nhóm các nhà khoa học có ảnh hưởng lớ" +
     "n nhất toàn cầu năm 2025";
@@ -627,9 +628,9 @@ namespace Education_Manager
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label12.Location = new System.Drawing.Point(0, 37);
+            this.label12.Location = new System.Drawing.Point(0, 30);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(140, 18);
+            this.label12.Size = new System.Drawing.Size(120, 15);
             this.label12.TabIndex = 2;
             this.label12.Text = "24/09/2025 16:38:34";
             // 
@@ -638,10 +639,10 @@ namespace Education_Manager
             this.label13.AutoSize = true;
             this.label13.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label13.Location = new System.Drawing.Point(0, 64);
+            this.label13.Location = new System.Drawing.Point(0, 84);
             this.label13.MaximumSize = new System.Drawing.Size(1440, 100);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(1418, 75);
+            this.label13.Size = new System.Drawing.Size(1429, 40);
             this.label13.TabIndex = 1;
             this.label13.Text = resources.GetString("label13.Text");
             // 
@@ -652,7 +653,7 @@ namespace Education_Manager
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(0, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(1168, 37);
+            this.label14.Size = new System.Drawing.Size(947, 30);
             this.label14.TabIndex = 0;
             this.label14.Text = "UTT ký kết hợp tác với Trường Đại học Xây dựng Quốc gia Moscow (MGSU)";
             // 
@@ -673,9 +674,9 @@ namespace Education_Manager
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(0, 74);
+            this.label9.Location = new System.Drawing.Point(0, 30);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(140, 18);
+            this.label9.Size = new System.Drawing.Size(120, 15);
             this.label9.TabIndex = 2;
             this.label9.Text = "28/09/2025 10:12:12";
             // 
@@ -687,7 +688,7 @@ namespace Education_Manager
             this.label10.Location = new System.Drawing.Point(0, 94);
             this.label10.MaximumSize = new System.Drawing.Size(1440, 70);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(1439, 70);
+            this.label10.Size = new System.Drawing.Size(1410, 60);
             this.label10.TabIndex = 1;
             this.label10.Text = resources.GetString("label10.Text");
             // 
@@ -699,7 +700,7 @@ namespace Education_Manager
             this.label11.Location = new System.Drawing.Point(0, 0);
             this.label11.MaximumSize = new System.Drawing.Size(1440, 100);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(1381, 74);
+            this.label11.Size = new System.Drawing.Size(1399, 30);
             this.label11.TabIndex = 0;
             this.label11.Text = "Trường Đại học Công nghệ GTVT tổ chức Lễ Khai giảng cao học Khóa 11.1 và Trao bằn" +
     "g Thạc sĩ đợt 2 năm 2025";
@@ -721,9 +722,9 @@ namespace Education_Manager
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(0, 74);
+            this.label6.Location = new System.Drawing.Point(0, 60);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 18);
+            this.label6.Size = new System.Drawing.Size(120, 15);
             this.label6.TabIndex = 2;
             this.label6.Text = "28/09/2025 12:09:53";
             // 
@@ -732,10 +733,10 @@ namespace Education_Manager
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(0, 64);
+            this.label7.Location = new System.Drawing.Point(0, 104);
             this.label7.MaximumSize = new System.Drawing.Size(1440, 150);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(1413, 75);
+            this.label7.Size = new System.Drawing.Size(1422, 40);
             this.label7.TabIndex = 1;
             this.label7.Text = resources.GetString("label7.Text");
             // 
@@ -747,7 +748,7 @@ namespace Education_Manager
             this.label8.Location = new System.Drawing.Point(0, 0);
             this.label8.MaximumSize = new System.Drawing.Size(1440, 100);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(1431, 74);
+            this.label8.Size = new System.Drawing.Size(1403, 60);
             this.label8.TabIndex = 0;
             this.label8.Text = "Trường Đại học Công nghệ GTVT trở thành thành viên Mạng lưới Trung tâm đào tạo xu" +
     "ất sắc và tài năng về năng lượng tái tạo, hydrogen";
@@ -813,9 +814,9 @@ namespace Education_Manager
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label5.Location = new System.Drawing.Point(0, 74);
+            this.label5.Location = new System.Drawing.Point(0, 60);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 18);
+            this.label5.Size = new System.Drawing.Size(120, 15);
             this.label5.TabIndex = 2;
             this.label5.Text = "05/10/2025 10:09:13";
             // 
@@ -824,10 +825,10 @@ namespace Education_Manager
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(0, 64);
+            this.label4.Location = new System.Drawing.Point(0, 104);
             this.label4.MaximumSize = new System.Drawing.Size(1440, 150);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(1412, 50);
+            this.label4.Size = new System.Drawing.Size(1429, 40);
             this.label4.TabIndex = 1;
             this.label4.Text = resources.GetString("label4.Text");
             // 
@@ -838,7 +839,7 @@ namespace Education_Manager
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1440, 74);
+            this.label3.Size = new System.Drawing.Size(1155, 60);
             this.label3.TabIndex = 0;
             this.label3.Text = "UTT tham gia Hội nghị Trung Quốc (Quảng Tây) – ASEAN và trở thành thành viên Trun" +
     "g tâm \r\nĐổi mới & Hợp tác về AI trong Giao thông vận tải";
@@ -882,7 +883,7 @@ namespace Education_Manager
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(7, 4);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
+            this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tin Tức";
             // 
